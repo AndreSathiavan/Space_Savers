@@ -103,7 +103,7 @@ function draw() {
 
     textAlign("center");
     fill('white');
-    textSize(24)
+    textSize(124)
     text("SPACE SAVERS", windowWidth/2, windowHeight/2 - 200);
 
     easy.visible = false;
@@ -156,10 +156,10 @@ function draw() {
         computer.velocityX = 12;
       }
 
-      textSize(24);
+      textSize(64);
       textAlign("center")
       text("How to Play", windowWidth/2, windowHeight/2 -60);
-      textSize(24);
+      textSize(48);
       text("Move Left and Right with Arrow Keys", windowWidth/2, windowHeight/2);
       text("Press Space to Shoot", windowWidth/2, windowHeight/2 + 60);
       text("Avoid Lasers and do not let Aliens Invade", windowWidth/2, windowHeight/2 + 120);
@@ -313,7 +313,7 @@ if(frameCount%375===0){
   // Title
   textAlign("center");
   fill("white");
-  textSize(24)
+  textSize(40)
   text("Lives left: " + lives, 430, 50);
   text(name + "'s Score: " + score, 500, 100);
   text("Alien Lives: " + alienLives, windowWidth - 450, 50)
@@ -476,7 +476,7 @@ if(frameCount%375===0){
     // Title
     textAlign("center");
     fill("white");
-    textSize(24)
+    textSize(40)
     text("Lives left: " + lives, 430, 50);
     text(name + "'s Score: " + score, 500, 100);
     text("Alien Lives: " + alienLives, windowWidth - 450, 50)
