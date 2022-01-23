@@ -39,7 +39,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(2400, 1600);
   alienLaser_group = new Group();
   alien_group = new Group();
   alien_group1 = new Group();
