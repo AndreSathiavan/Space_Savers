@@ -25,7 +25,7 @@ function preload() {
   explosionImg = loadImage("explosion.png");
   restartImg = loadImage("restart.png");
   backgroundImg2 = loadImage("back.jpeg");
-  backgroundImg = loadImage("background.jpeg");
+  backgroundImg = loadImage("Background.png");
   playerimage = loadImage("GoodGuysSpaceship2.png");
   computerimage = loadImage("BadGuysSpaceShip.png");
   alienImg = loadImage("BadGuys.png")
